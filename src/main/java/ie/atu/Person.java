@@ -5,6 +5,13 @@ public class Person {
     String lastname;
     int age;
 
+    //Default Constructor to initialize default values
+    public Person(){
+        this.firstname = "Damian";
+        this.lastname = "Dobrzycki";
+        this.age = 18;
+    }
+
     //Constructor
     public Person(String firstname, String lastname, int age){
         this.firstname = firstname;
